@@ -35,7 +35,7 @@ void quicksort(std::vector<int>& list, int low, int high) {
 }
 
 int main() {
-    int length = std::rand() % 100 + 1;  // Random number between 1 and 100
+    int length = std::rand() % 1000 + 1;  // Random number between 1 and 100
 
     // Create the vector and fill it with random numbers
     std::vector<int> list(length);
